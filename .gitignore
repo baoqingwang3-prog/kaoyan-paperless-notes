@@ -1,0 +1,29 @@
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+*config.json
+!*config.example.json
+*.secret.*
+*.key
+*.pem
+
+# Real study materials and run artifacts
+*.png
+*.jpg
+*.jpeg
+*.webp
+*.pdf
+*.log
+资料/
+验收/
+已归档/
+
+# Local tooling
+__pycache__/
+*.pyc
+.venv/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
