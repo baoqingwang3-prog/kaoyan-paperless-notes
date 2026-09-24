@@ -1,0 +1,4 @@
+{
+  "name": "kaoyan-paperless-notes",
+  "install": "bash .cursor/install.sh"
+}
