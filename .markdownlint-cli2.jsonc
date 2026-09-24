@@ -1,0 +1,12 @@
+{
+  // Docs here are Chinese prose plus copy-paste share text, so a few stylistic
+  // rules fight the repo's intentional formatting. Disable only those and keep
+  // the structural checks (headings, lists, fenced code, links) active.
+  "config": {
+    "MD013": false, // line-length: CJK prose wraps by meaning, not at 80 columns
+    "MD034": false, // no-bare-urls: 抖音文案 intentionally shows plain shareable URLs
+    "MD060": false  // table-column-style: compact GFM tables render fine
+  },
+  "globs": ["**/*.md"],
+  "ignores": ["node_modules", ".git"]
+}

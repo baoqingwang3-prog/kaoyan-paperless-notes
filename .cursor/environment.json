@@ -1,0 +1,4 @@
+{
+  "name": "kaoyan-paperless-notes",
+  "install": "npm install -g markdownlint-cli2@0.23.3 --prefix \"$(dirname \"$(dirname \"$(command -v npm)\")\")\""
+}
